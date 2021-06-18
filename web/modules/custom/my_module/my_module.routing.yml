@@ -1,0 +1,17 @@
+my_module:
+  path: /my/drupal
+  defaults:
+     _controller: Drupal\my_module\Controller\MyModuleController::hello
+  requirements:
+    _permission : 'access content'
+
+my_module.generate:
+  path: '/{cityname}'
+
+  requirements:
+    _permission: 'generate city block'
+
+
+
+
+       

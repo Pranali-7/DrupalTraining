@@ -1,0 +1,21 @@
+name: My theme
+type: theme
+description: 'My custom theme.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - my_theme/global-css-js-design
+base theme: classy
+
+package: other
+
+regions:
+   header: 'Header'
+   social: 'Social links'
+   menu: 'Menu'
+   content: 'Content'
+   content_first: 'Content First'
+   content_second: 'Content Second'
+   content_third: 'Content Third'
+   content_fourth: 'Content Fourth'
+   footer: 'Footer'
+   sidebar_first: 'Sidebar First'

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+name: image_poster
+label: image_poster
+effects:
+  e9402bea-5931-4118-b87c-2c301204c212:
+    uuid: e9402bea-5931-4118-b87c-2c301204c212
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center
+  1b7dc41d-234b-455f-9311-041be261ea3f:
+    uuid: 1b7dc41d-234b-455f-9311-041be261ea3f
+    id: image_desaturate
+    weight: 2
+    data: {  }

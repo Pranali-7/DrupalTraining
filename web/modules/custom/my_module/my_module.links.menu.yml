@@ -1,0 +1,10 @@
+# my_module:
+#   title: 'Hello module '
+#   description: 'example of how to make an admin settings page link'
+  
+#   route_name: my_module
+#   weight: 3
+#   menu_name: main
+#   options:
+#     attributes:
+#       target: _blank

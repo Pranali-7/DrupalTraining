@@ -1,0 +1,80 @@
+{% include '@my_theme/includes/header.html.twig' %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+			<nav id="nav">
+					{{ page.menu }}
+				</nav>
+		<header id="banner" class="alt">
+				<!-- {{ attach_library('classy/node') }} -->
+
+				{{ page.header}}
+				
+
+			</header>
+			
+
+		<!-- Banner -->
+			<!-- <section id="banner">
+				
+				
+				{% if fruit_name is defined %}
+				{{ fruit_name }}
+				
+				{% endif %}
+				</section> -->
+				<div id ="content">
+					{{ page.content }}
+				</div>
+			<!-- One -->
+				<section id="one" class="wrapper style1">
+					{{ page.content_first }}
+					
+     				<br>
+     				
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2 special">
+					{{ page.content_second }}
+					
+
+					     
+					</div>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="wrapper style1">
+					{{ page.content_third }}
+					
+
+					
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style3 special">
+					{{ page.content.fourth }}
+					
+					
+					</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+		
+	
+				<div class="container">
+					{{ page.social }}
+
+					{{ page.footer }}
+
+				</div>
+			</footer>
+
+</body>
+</html>
+{% include '@my_theme/includes/footer.html.twig' %}

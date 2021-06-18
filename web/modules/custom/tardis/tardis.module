@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * TARDIS Views module help and theme functions.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function tardis_theme($existing, $type, $theme, $path) {
+  // Store TARDIS preprocess theme functions in a separate .inc file.
+  \Drupal::moduleHandler()->loadInclude('tardis', 'inc', 'tardis.theme');
+
+  return array(
+    'tardis' => array(
+      'file' => 'tardis.theme.inc',
+    ),
+  );
+}

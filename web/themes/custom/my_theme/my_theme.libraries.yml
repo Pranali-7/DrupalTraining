@@ -1,0 +1,10 @@
+global-css-js-design:
+   css:
+     theme:
+       assets/css/font-awesome.min.css: {}
+       assets/css/my-style.css: {}
+   js:
+     assets/js/m-jquery.js: {}
+
+   dependencies:
+    - core/jquery

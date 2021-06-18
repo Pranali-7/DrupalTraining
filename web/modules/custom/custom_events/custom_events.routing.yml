@@ -1,0 +1,7 @@
+custom_events.form_event:
+  path: '/custom_events/form/form_event'
+  defaults:
+    _form: '\Drupal\custom_events\Form\FormEvent'
+    _title: 'FormEvent'
+  requirements:
+    _access: 'TRUE'

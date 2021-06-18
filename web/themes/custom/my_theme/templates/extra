@@ -1,0 +1,11 @@
+{%
+  set classes = [
+    'red',
+    'green',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}></div>
+<div{{ attributes.addClass(classes).removeClass('green') }}></div>
+<br>
+
+<div{{ attributes.setAttribute('id', 'myID') }}></div>
